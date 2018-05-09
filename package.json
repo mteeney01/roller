@@ -1,0 +1,24 @@
+{
+  "name": "roller",
+  "version": "0.0.1",
+  "description": "Silly node package for 'rolling dice'",
+  "main": "roller.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mteeney01/roller.git"
+  },
+  "keywords": [
+    "random",
+    "roll",
+    "dice"
+  ],
+  "author": "Matthew Teeney",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mteeney01/roller/issues"
+  },
+  "homepage": "https://github.com/mteeney01/roller#readme"
+}
