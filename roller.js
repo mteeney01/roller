@@ -17,7 +17,8 @@ exports.roll = function(amount, die) {
     }
 
     return {
-        rolls: result
+        rolls: result,
+        total: result.reduce((a,b) => a + b, 0)
     };
 };
 
