@@ -10,15 +10,15 @@ exports.DIE = {
 };
 
 exports.roll = function(amount, die) {
-    let result = [];
+    var result = [];
 
-    for (let i = 0; i < amount; i++) {
+    for (var i = 0; i < amount; i++) {
         result.push(getRandomIntInclusive(1, die));
     }
 
     return {
         rolls: result,
-        total: result.reduce((a,b) => a + b, 0)
+        total: result.reduce(function(a,b) { return a + b; }, 0)
     };
 };
 
